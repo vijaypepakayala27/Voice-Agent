@@ -60,7 +60,7 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
     TELNYX_API_KEY=your_telnyx_api_key
     HUME_API_KEY=your_hume_api_key
     ```
-5.**Expose Local Server to the Internet Using ngrok**
+5. **Expose Local Server to the Internet Using ngrok**
 
 Download and install ngrok. https://ngrok.com/docs/guides/
 Start ngrok on port 5000:
