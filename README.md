@@ -30,7 +30,7 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
 4. Go to "Webhooks" under the "Connections" section and paste the ngrok URL followed by /webhook.
 5. Assign the number to the Call Control Application on the numbers page
 
-###Running the Code
+### Running the Code
 
 1. **Clone the Repository**
 
