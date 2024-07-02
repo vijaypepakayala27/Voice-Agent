@@ -16,7 +16,7 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
 - Flask
 - Telnyx Python SDK
 - Requests
-- Websockets
+- WebSockets
 - python-dotenv
 - ngrok (for exposing local server to the internet)
 
@@ -27,18 +27,10 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
 1. Log in to your Telnyx Account
 2. Purchase a number, if you haven't already
 3. Create a Call Control Application by navigating to https://portal.telnyx.com/v2/index.html#/call-control/applications and create a new application with the appropriate settings.
-4. Assign the number to the Call Control Application on the numbers page 
+4. Go to "Webhooks" under the "Connections" section and paste the ngrok URL followed by /webhook.
+5. Assign the number to the Call Control Application on the numbers page
 
-### Set Up a Webhook
-
-1. Go to "Webhooks" under the "Connections" section.
-2. Add a new webhook and paste the ngrok URL followed by /webhook.
-
-### Configure Call Control
-
-1. Ensure your connection is set up to use Call Control.
-2. Associate the webhook URL with the connection for handling call events.
-
+###Running the Code
 
 1. **Clone the Repository**
 
