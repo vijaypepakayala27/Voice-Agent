@@ -62,12 +62,12 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
     ```
 5. **Expose Local Server to the Internet Using ngrok**
 
-Download and install ngrok. https://ngrok.com/docs/guides/
-Start ngrok on port 5000:
+    Download and install ngrok. https://ngrok.com/docs/guides/
+    Start ngrok on port 5000:
     ```bash
     ngrok http 5000
     ```
-Copy the generated public URL from the ngrok terminal. This URL will be used to set up the webhook in Telnyx.
+    Copy the generated public URL from the ngrok terminal. This URL will be used to set up the webhook in Telnyx.
 
 6. **Run the Application**
 
