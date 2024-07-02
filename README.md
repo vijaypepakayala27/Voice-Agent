@@ -25,10 +25,9 @@ This Flask application integrates Telnyx and Hume AI to process incoming calls, 
 ### Telnyx Setup 
 
 1. Log in to your Telnyx Account
-
-###Create a Call Control Connection
-
-1. Navigate to "[Connections](https://portal.telnyx.com/v2/index.html#/call-control/applications)" and create a new connection with the appropriate settings.
+2. Purchase a number, if you haven't already
+3. Create a Call Control Application by navigating to https://portal.telnyx.com/v2/index.html#/call-control/applications and create a new application with the appropriate settings.
+4. Assign the number to the Call Control Application on the numbers page 
 
 ### Set Up a Webhook
 
